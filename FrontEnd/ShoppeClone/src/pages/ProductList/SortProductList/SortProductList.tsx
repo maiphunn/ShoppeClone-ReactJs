@@ -14,12 +14,10 @@ export default function SortProductList() {
             Phổ biến
           </button>
           <select
-            value=''
             className='h-8 px-4 text-left capitalize bg-white text-black text-sm hover:bg-slate-100 outline-none'
+            defaultValue=''
           >
-            <option value='' disabled>
-              Giá
-            </option>
+            <option disabled>Giá</option>
             <option value='price:asc'>Giá: Thấp đến cao</option>
             <option value='price:desc'>Giá: Cao đến thấp</option>
           </select>
